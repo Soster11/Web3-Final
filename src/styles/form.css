@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(36, 33, 33);
+    color: rgb(8, 8, 8);
+}
+
+.contact{
+    font-size: 30px;
+    color: rgb(215, 217, 220);
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+.col-md-2{
+    min-width: 400px;
+}
+
+.form-check-input{
+    margin: 8px;
+    padding: 5px;
+}

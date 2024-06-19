@@ -1,0 +1,70 @@
+
+#prod{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: rgb(215, 217, 220);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 100px;
+    margin-top: 10px;
+}
+.card{
+    box-shadow: 2px 5px 10px rgb(56, 56, 56);
+    margin-bottom: 20px;
+    background-color: rgb(210, 212, 213);
+}
+.card-text{
+    font-weight: bolder;
+    color: rgb(58, 59, 60);
+}
+
+.btn-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row;
+}
+
+button{
+    border-radius: 50px;    
+    border:1px solid rgb(93, 91, 91);
+    margin: 2px;
+    font-family: sans-serif;
+    box-shadow: 2px 5px 10px rgb(56, 56, 56);
+}
+
+.btn-primar{
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    transition: .2s ease-in;
+}
+.btn-primar:hover{
+    background-color: rgba(255, 0, 0, 0.818);
+}
+
+.btn-primare{
+    transition: .2s ease-in;
+}
+.btn-primare:hover{
+    background-color: rgb(23, 96, 213);
+}
+
+.btn-central{
+    flex: 2;
+    border-radius: 0;
+    transition: .2s ease-in;
+}
+
+.btn-central:hover{
+    background-color: #009b4e94;
+    color: rgb(255, 255, 255);
+    border: 1px solid #009B4D;
+}
